@@ -1,0 +1,30 @@
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tabs-trigger{
+    display: flex;
+}
+
+.tabs-triggers__item {
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    flex-grow: 1;
+}
+
+.tabs-triggers__item--active {
+    background-color: #eee;
+}
+
+.tabs-content__item {
+    display: none;
+    background-color: #eee;
+    padding: 20px;
+}
+
+.tabs-content__item--active {
+    display: block;
+}
